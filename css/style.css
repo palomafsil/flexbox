@@ -1,65 +1,97 @@
-* {
-    padding: 0px;
-    margin: 2px;
+body {
+    background-color: red;
+}
+    * {
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 
-body {
-    font-family:'Times New Roman', Times, serif;
+#inroducao {
+    color: rgb(77, 0, 132);
 }
 
-#nome-portal {
-    color:rgb(0, 0, 27);
+header {
+    padding: 20px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    gap: 77%;
+}
+
+#menu{
+    color: rgb(77, 0, 132);
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+}
+
+main {
+    padding: 20px;
 
 }
 
-#navegacao {
-   
+#justica {
+    color: rgb(77, 0, 132);
 }
 
-#introducao {
+#inicio{
+    background-color: rgba(108, 108, 253, 0.762);
+    display: flex;
+    gap: 50px;
+    padding: 20px;
+    line-height: 45px;
+}
+
+#inicio img{
+    width: 400px;
+    height: auto;
+}
+
+#inicio h2 {
+    font-size: 50px;
+}
+
+#herois {
+    padding: 20px;
+}
+
+#herois h2 {
+    font-size: 45px;
+}
+
+#conheca {
+    color: rgb(77, 0, 132);
+}
+
+.cards {
+    background-color: rgba(108, 108, 253, 0.762);
+    padding: 20px;
+    margin: 10px;
+    width: 30%;
+}
+
+.cards h3 {
+    font-size: 35px;
+}
+
+.cards img {
+    width: 100%;
+    object-fit: cover;
+    height: 350px;
+}
+
+#galeria {
     display: flex;
     flex-direction: row;
-    gap: 30px;
-    padding: 30px;
-    background-color: rgba(131, 144, 206, 0.756);
+    justify-content: space-around;
     align-items: center;
-    justify-content: space-between;
-    margin-bottom: 30px;
-}
-
-#introducao img {
-    width: 350px;
-    height: 350px;
-    object-fit: cover;
-}
-
-#cards {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
     flex-wrap: wrap;
 }
 
-.card {
-    background-color: white;
+hr {
+    margin: 20px;
+}
+
+footer {
     padding: 20px;
-    width: 30%;
-    border-radius: 20px;
-    text-align: center;
-}
-
-.card img {
-    width: 40%;
-    border-radius: 20px;
-    height: 300px;
-    object-fit: cover;
-}
-
-.card p {
-    margin-top: 10px;
-    font-weight: bold;
+    color: gray;
 }
