@@ -5,13 +5,13 @@
 }
 
 #inroducao {
-    color: rgba(7, 17, 104, 0.762);
+    color: rgba(6, 20, 147, 0.762);
 }
 
 header {
     padding: 20px;
     display: flex;
-    gap: 77%;
+    justify-content: space-between;
 }
 
 #menu{
@@ -27,7 +27,7 @@ main {
 }
 
 #justica {
-    color: rgba(7, 17, 104, 0.762);
+    color: rgba(0, 0, 0, 0.6);
 }
 
 #inicio{
