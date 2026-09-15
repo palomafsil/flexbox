@@ -1,14 +1,11 @@
-body {
-    background-color: red;
-}
-    * {
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
 #inroducao {
-    color: rgb(77, 0, 132);
+    color: rgba(7, 17, 104, 0.762);
 }
 
 header {
@@ -18,7 +15,7 @@ header {
 }
 
 #menu{
-    color: rgb(77, 0, 132);
+    color: rgba(7, 17, 104, 0.762);
     display: flex;
     padding: 10px;
     gap: 10px;
@@ -30,15 +27,17 @@ main {
 }
 
 #justica {
-    color: rgb(77, 0, 132);
+    color: rgba(7, 17, 104, 0.762);
 }
 
 #inicio{
-    background-color: rgba(108, 108, 253, 0.762);
+    background-color: rgba(7, 18, 116, 0.762);
     display: flex;
     gap: 50px;
     padding: 20px;
     line-height: 45px;
+    justify-content:space-between;
+    align-items: center;
 }
 
 #inicio img{
@@ -59,11 +58,11 @@ main {
 }
 
 #conheca {
-    color: rgb(77, 0, 132);
+    color: rgba(7, 17, 104, 0.762);
 }
 
 .cards {
-    background-color: rgba(108, 108, 253, 0.762);
+    background-color: rgba(7, 17, 104, 0.762);
     padding: 20px;
     margin: 10px;
     width: 30%;
@@ -75,7 +74,7 @@ main {
 
 .cards img {
     width: 100%;
-    object-fit: cover;
+    object-fit:scale-down;
     height: 350px;
 }
 
